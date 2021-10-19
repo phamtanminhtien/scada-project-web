@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Scada</title>
+    <link rel="stylesheet" href="./style.css" />
+
+    <script type="text/javascript" src="jsLib/jquery-2.2.0.min.js"></script>
+    <script type="text/javascript" src="jsLib/S7_framework.js"></script>
+    <script type="text/javascript" src="Script/StartOpti.js"></script>
+  </head>
+  <body>
+    <div class="wrapper fadeInDown">
+      <div id="formContent">
+        <h2 class="active">Sign In</h2>
+
+        <div class="fadeIn first"></div>
+
+        <form>
+          <input
+            type="text"
+            id="login"
+            class="fadeIn second"
+            name="login"
+            placeholder="login"
+            autocomplete="off"
+          />
+          <input
+            type="text"
+            id="password"
+            class="fadeIn third"
+            name="login"
+            placeholder="password"
+            autocomplete="off"
+          />
+          <input type="submit" class="fadeIn fourth" value="Log In" />
+        </form>
+
+        <div id="formFooter">
+          <a class="underlineHover" href="#">________________</a>
+        </div>
+      </div>
+    </div>
+    <script type="text/javascript" src="./main.js"></script>
+  </body>
+</html>

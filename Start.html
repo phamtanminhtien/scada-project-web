@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Start</title>
+
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="./Start.css" />
+
+    <script type="text/javascript" src="jsLib/jquery-2.2.0.min.js"></script>
+    <script type="text/javascript" src="jsLib/S7_framework.js"></script>
+    <script type="text/javascript" src="Script/StartOpti.js"></script>
+  </head>
+  <body>
+    <div class="pagination">
+      <a href="./Start.html">Start</a>
+      <a href="./OverView.html">Overview</a>
+      <a href="./Data.html">Data</a>
+    </div>
+    <div class="wrapper fadeInDown">
+      <div class="box fadeIn frist">
+        <h2 class="active">Filling Level</h2>
+        <div class="content">
+          <div class="loading">
+            <span class="loading-percent">50%</span>
+            <div class="process"></div>
+          </div>
+        </div>
+        <div id="boxFooter">
+          <a class="underlineHover" href="#">________________</a>
+        </div>
+      </div>
+      <div class="box fadeIn second">
+        <h2 class="active">Plant status</h2>
+        <div class="content">
+          <div class="status">
+            <div class="icon-status status-1"></div>
+          </div>
+          <div class="action">
+            <input type="submit" class="fadeIn" value="Start" />
+            <input type="submit" class="fadeIn" value="Stop" />
+            <input type="submit" class="fadeIn" value="Reset" />
+          </div>
+        </div>
+        <div id="boxFooter">
+          <a class="underlineHover" href="#">________________</a>
+        </div>
+      </div>
+      <div class="box fadeIn third">
+        <h2 class="active">Flowrate of tank filling or emptying</h2>
+        <div class="content">
+          <p>
+            Determine the flowrate of filling or emptying the tank by a number
+            between 1 and 10!
+          </p>
+          <div class="flowrate">Actual Flowrate: <b>9</b></div>
+          <div class="form">
+            <input
+              type="number"
+              class="fadeIn"
+              placeholder="Flowrate"
+              autocomplete="off"
+            />
+
+            <input type="submit" class="fadeIn" value="Set a new Flowrate" />
+          </div>
+        </div>
+        <div id="boxFooter">
+          <a class="underlineHover" href="#">________________</a>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

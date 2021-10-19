@@ -1,0 +1,12 @@
+{
+"val" :	":="Web2Plc".dataStartString:",
+"len" :	"1;4;4",
+"typ" :	"0;2;2",
+"str" : ""
+}
+
+<!-- AWP_In_Variable Name='"Web2Plc".start' -->
+<!-- AWP_In_Variable Name='"Web2Plc".stop' -->
+<!-- AWP_In_Variable Name='"Web2Plc".reset' -->
+<!-- AWP_In_Variable Name='"Web2Plc".flowrate' -->
+

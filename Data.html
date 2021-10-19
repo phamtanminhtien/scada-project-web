@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Data</title>
+
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="./Data.css" />
+
+    <script type="text/javascript" src="jsLib/jquery-2.2.0.min.js"></script>
+    <script type="text/javascript" src="jsLib/S7_framework.js"></script>
+    <script type="text/javascript" src="Script/StartOpti.js"></script>
+  </head>
+  <body>
+    <div class="pagination">
+      <a href="./Start.html">Start</a>
+      <a href="./OverView.html">Overview</a>
+      <a href="./Data.html">Data</a>
+    </div>
+    <div class="wrapper fadeInDown">
+      <div class="box fadeIn frist">
+        <h2 class="active">Plant status</h2>
+        <div class="content">
+          <div class="status">
+            <div class="icon-status status-1"></div>
+          </div>
+          <div class="action">
+            <input type="submit" class="fadeIn" value="Start" />
+            <input type="submit" class="fadeIn" value="Stop" />
+          </div>
+        </div>
+        <div id="boxFooter">
+          <a class="underlineHover" href="#">________________</a>
+        </div>
+      </div>
+      <div class="box fadeIn second">
+        <h2 class="active">Data</h2>
+        <div class="content">
+          <table class="styled-table">
+            <thead>
+              <tr>
+                <th>Data</th>
+                <th>Time</th>
+                <th>Value</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>1</td>
+                <td>6000</td>
+                <td>6000</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <div id="boxFooter">
+          <a class="underlineHover" href="#">________________</a>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

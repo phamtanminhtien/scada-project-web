@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>OverView</title>
+
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="./OverView.css" />
+
+    <script type="text/javascript" src="jsLib/jquery-2.2.0.min.js"></script>
+    <script type="text/javascript" src="jsLib/S7_framework.js"></script>
+    <script type="text/javascript" src="Script/StartOpti.js"></script>
+  </head>
+  <body>
+    <div class="pagination">
+      <a href="./Start.html">Start</a>
+      <a href="./OverView.html">Overview</a>
+      <a href="./Data.html">Data</a>
+    </div>
+    <div class="wrapper fadeInDown">
+      <div class="box fadeIn frist">
+        <h2 class="active">WaterTank</h2>
+        <div class="content"></div>
+        <div id="boxFooter">
+          <a class="underlineHover" href="#">________________</a>
+        </div>
+      </div>
+      <div class="box fadeIn second">
+        <h2 class="active">OverView</h2>
+        <div class="content">
+          <div class="box-child">
+            <h3>Data Current Value</h3>
+            <div class="detail">
+              <div class="box-left">
+                <p>Flowrate:</p>
+                <p>Tank Level:</p>
+              </div>
+              <div class="box-right">
+                <p>1</p>
+                <p>2</p>
+              </div>
+            </div>
+          </div>
+          <div class="box-child">
+            <h3>Measurement Unit</h3>
+            <div class="detail">
+              <div class="box-left">
+                <p>Tank Level Overflow:</p>
+                <p>Tank Level Maximum:</p>
+                <p>Tank Level Midth:</p>
+                <p>Tank Level Minimum:</p>
+                <p>Tank Level Lack:</p>
+              </div>
+              <div class="box-right">
+                <p>1</p>
+                <p>2</p>
+                <p>2</p>
+                <p>2</p>
+                <p>2</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="box-child">
+            <h3>Action</h3>
+            <div class="action">
+              <input id="start" type="submit" class="fadeIn" value="Start" />
+              <input id="stop" type="submit" class="fadeIn" value="Stop" />
+              <input
+                id="openvalve"
+                type="submit"
+                class="fadeIn"
+                value="OpenValve"
+              />
+              <input
+                id="closevalve"
+                type="submit"
+                class="fadeIn"
+                value="CloseValve"
+              />
+            </div>
+          </div>
+        </div>
+        <div id="boxFooter">
+          <a class="underlineHover" href="#">________________</a>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
